@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+label,
+h1,
+p {
+  font-family: sans-serif;
+}
+.margin-0 {
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.margin-left-auto {
+  margin-left: auto;
+}
+
+.main-div {
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+}
+
+.form-div {
+  width: 100%;
+  gap: 1rem;
+}
+
+.error-message {
+  background-color: rgb(241, 178, 190);
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.form {
+  gap: 1rem;
+}
+.card-info {
+  justify-content: start;
+  gap: 2%;
+}
+.number-info {
+  flex: 2 0 40%;
+}
+.cvc-info {
+  flex: 1 2 20%;
+}
+.payment-info {
+  flex: 1 1 35%;
+}
+
+.personal-info {
+  gap: 1rem;
+}
+.name-info {
+  gap: 2%;
+}
+.first-name {
+  flex: 1 1 45%;
+}
+.last-name {
+  flex: 1 1 45%;
+}
+
+.billing-info {
+  gap: 2%;
+}
+
+.payment-method {
+  flex: 0 1 45%;
+}
+.comments {
+  flex: 0 1 45%;
+}
+
+.choices {
+  background-color: gray;
+  flex: 1 0 30%;
+  gap: 1rem;
+  align-items: center;
+}
+.image {
+  height: 2rem;
+  object-fit: contain;
+}
+text {
+  height: 2rem;
+}
+
+.form-footer {
+  justify-content: end;
+}
